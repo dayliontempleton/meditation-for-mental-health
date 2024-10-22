@@ -1,5 +1,5 @@
 /*---------------------------------------------Google fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
     padding: 0;
@@ -17,21 +17,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
 .hidden-heading {
     display: none;
 }
 
 header {
-    background-color: #fafafa;
+    background-color: #c3eff0;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -43,16 +34,16 @@ header {
 }
 
 header a {
-    text-decoration: 0;
+    text-decoration: none;
     color: inherit;
 }
 
-.logo {
-    height: 100px;
-}
-
-.title {
-    text-align: center;
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 #menu {
@@ -69,13 +60,26 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#logo {
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    padding-top: 5px;
+}
+
+#title {
+    text-align: center;
+    font-size: 100%;
+    text-decoration: solid;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #fafafa;
+    background-color: #c3eff0;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 5px 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -95,12 +99,12 @@ nav {
 }
 
 
-.bg-color-hero {
-    background-color: #c3eff0;
-}
 
-body {
+main {
     background-color: #f2d3e3;
+    flex: 1 0 auto;
+    margin-top: 52px;
+
 }
 
 /* Footer */
@@ -116,7 +120,7 @@ footer {
 }
 
 #social-networks {
-    
+
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -133,4 +137,50 @@ footer {
 #social-networks i:hover {
     color: #3a3a3a;
 
+}
+
+/*---------------------------------------------Media Query: tablets and larger (768px and up)*/
+@media screen and (min-width:768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #title {
+        font-size: 150%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    #logo {
+        height: 90px;
+        padding-top: 0px;
+    
+    }
+
+    main {
+        margin-top: 89px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
