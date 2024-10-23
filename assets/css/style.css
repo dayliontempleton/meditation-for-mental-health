@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
 }
 
 .navbar {
@@ -54,4 +55,20 @@ body {
 
 .card {
     padding-bottom: 10px;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+   
+
+#social-networks i {
+    font-size: 200%;
+    padding: 5%;
+    color: #3a3a3a;
 }
