@@ -1,4 +1,30 @@
 body {
-    background-color:  #f2d3e3;
     font-family: 'Roboto', sans-serif;
+}
+
+.hero-container {
+    height: 100vh;
+    background-color:  #f2d3e3;
+    background: url("../images/rb_2148911388.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-container {
+    background-color:  #8ee5b0;
+    background-size: cover;
+}
+
+.links-container {
+    background-color:  #f2d3e3;
+}
+
+.quotes-container {
+    background-color:  #dcf2d3;
 }
