@@ -33,16 +33,22 @@ The target audience for this project is anyone who wants more information about 
 
 ### Color Scheme
 For my color palette i wanted calm pastel colors, i took these colors from the images i had to create a cohesive design throughout the site.
+
+![Color Palette ](<colorp.png>)
+
 ### Wireframes
 My Wire Frames were made in Balsamiq.
 
 Desktop
+
 ![Desktop Wireframe](<Screenshot 2024-10-23 122050.png>)
 
 Tablet
+
 ![Tablet](<Screenshot 2024-10-23 123226.png>)
 
 Mobile
+
 ![Tablet](<Screenshot 2024-10-23 123735.png>)
 
 ### Accessibility Considerations
