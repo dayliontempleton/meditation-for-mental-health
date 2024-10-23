@@ -51,3 +51,7 @@ body {
     border: none;
     margin: 0 0;
 }
+
+.card {
+    padding-bottom: 10px;
+}
