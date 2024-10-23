@@ -4,6 +4,12 @@
 
 Meditation for Mental Healthhas been developed as part of Code Institute's Full-Stack Software Development Bootcamp as my 1st ever project. This project is made by using HTML, CSS and Bootstrap.
 
+### Website
+https://dayliontempleton.github.io/meditation-for-mental-health/
+
+![website](<Screenshot 2024-10-23 at 09-18-29 Meditation for Mental Health Home.png>)
+
+
 ### Purpose
 The Projects purpose is to create a website for using meditation to help with mental health, the site will allow visitors to sign up for meditation classes as well as getting more information on how meditation can help with mental health. it will also provide links to relevent mental health charities and services.
 
