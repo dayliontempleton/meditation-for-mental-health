@@ -17,17 +17,18 @@ The Projects purpose is to create a website for using meditation to help with me
 The target audience for this project is anyone who wants more information about meditation and how meditation can help with mental health.
 
 ## User Stories
+### User Goals
+The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
 
-### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+### Client Goals
+The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
 
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+Potential Features might Include:
 
-
+    Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
+    Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
+    Resource Links: A grid layout for external links to mental health resources, styled with Bootstrap buttons to make them stand out.
+    Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
 
 ## Design Decisions
 
@@ -52,8 +53,7 @@ Mobile
 ![Tablet](<Screenshot 2024-10-23 123735.png>)
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+i have added aria- labels to all my external links so screen readers can understand the elements on the page.
 
 ## AI Tools Usage
 
@@ -63,33 +63,26 @@ Chat GPT was used to create my user quotes.
 
 ## Features Implementation
 
-### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
+### Navigation Bar
+my responsive navbar was built using bootstrap, it contains links to the home, about, learn more and sign up pages, it is identical across all the pages of the site to allow for intuative and easy navigation of the site.
 
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+### Signup Modal
+this is my hero section to allow users to sign up for meditation classes, it was created using a bootstrap jumbotron and a modal to allow the user to quickly and easily sign up without leaving the home page.
 
-### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
+### Information Cards
+the information section is built using bootstrap cards each card contains an image and button to find out more information about a particular topic, the cards are responsive and adapt to the device that the site is being viewed on.
 
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+### Resource Links
+the resource links section is also built using cards, however these link to external sites that open in a new window.they are also responsive to the device that the site is being viewed on
 
-### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
+### Positive Affirmations
+the quotes section allows users to see what other users think of the site, images of the people are used and this is responsive to the device it is viewed on with them being hidden on mobile devices.
 
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
+### Footer Element
+
+the footer element has links to social media sites. the sites will open in a new tab for the user.
 
 ## Testing and Validation
-
-### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
 ### Validation
 I used W3C to validate my code, i had no major errors, however i did get warnings for redundant / on my favicon code that i had used from https://realfavicongenerator.net/ 
@@ -97,24 +90,20 @@ I used W3C to validate my code, i had no major errors, however i did get warning
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+the project was deployed on github pages early on in the development of the project so i could vie it on multiple devices.
 
-## Reflection on Development Process
+## Future Improvements
+i would like to fix the bugs that are causing spacing issues with the recource link cards as well as resize the images in my bootstrap cards to have a more cohesive flow of design. i would also like to further style to signup modal to reflect the other styles on the site. i would also like to create the other pages of the site.
+## Credits
 
-### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
-
-## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 https://realfavicongenerator.net/
+Was used to create the favicon from image
 
 https://www.freepik.com/ 
+Was used for all images in the project
 
 https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858 
-## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+Was used for some of the information in the website.
+
+https://coolors.co/8ee5b0-f2d3e3-bfb59e 
+was used to help generate my color palette.
