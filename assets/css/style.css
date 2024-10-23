@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+    background-color: #8ee5b0;
+}
+
+.navbar .navbar-toggler {
+    border:0;
+}
+
+
 .hero-container {
     height: 100vh;
     background-color:  #f2d3e3;
@@ -19,12 +28,26 @@ body {
 .cards-container {
     background-color:  #8ee5b0;
     background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 0 0;
 }
 
 .links-container {
     background-color:  #f2d3e3;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 0 0;
 }
 
 .quotes-container {
     background-color:  #dcf2d3;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin: 0 0;
 }
